@@ -1,0 +1,56 @@
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #fc0;
+  color: #000;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a{
+    color: #000 !important;
+    text-decoration: none;
+  }
+  .share {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 40px;
+    .link {
+      border: 1px solid #000;
+      background-color: transparent;
+      font-size: 14px;
+      height: 100%;
+      span {
+        display: inline-block;
+        padding: 10px;
+      }
+      button {
+        border: 0;
+        border-left: 1px solid #000;
+        background-color: transparent;
+        height: 100%;
+        cursor: pointer;
+        padding: 0 15px;
+        font-weight: bold;
+      }
+      @media (max-width: 900px) {
+        span{
+          display: none;
+        }
+        button{
+          margin: 0;
+          border-left: 0;
+        }
+      }
+    }
+  }
+}

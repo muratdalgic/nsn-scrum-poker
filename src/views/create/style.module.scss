@@ -1,0 +1,30 @@
+.createPage{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    h2{
+        font-size: 50px;
+        margin: 0 0 10px 0;
+    }
+    p{
+        font-size: 20px;
+        margin: 0 0 40px 0;
+    }
+    button{
+        width: 350px;
+        background-color: #fc0;
+        border: 0;
+        outline: 0;
+        height: 50px;
+        cursor: pointer;
+        font-weight: bold;
+        margin: 0;
+        border-radius: 4px;
+    }
+}
